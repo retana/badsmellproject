@@ -1,0 +1,17 @@
+
+Analyze "ProyectoBadSmell": sqp_660fa19dcf2814e73b5c8661babc0212bb1a8d9f
+
+mvn clean verify sonar:sonar \
+  -Dsonar.projectKey=ProyectoBadSmell \
+  -Dsonar.host.url=http://localhost:9000 \
+  -Dsonar.login=sqp_660fa19dcf2814e73b5c8661babc0212bb1a8d9f
+
+
+snyk test
+
+snyk test --maven-aggregate-project
+ --scan-unmanaged
+ --scan-all-unmanaged
+
+
+
