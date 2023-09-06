@@ -10,7 +10,7 @@
     </parent>
     <groupId>edu.galileo</groupId>
     <artifactId>BadSmellProject</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.0</version>
     <name>BadSmellProject</name>
     <description>BadSmellProject</description>
     <properties>
@@ -44,15 +44,6 @@
     </dependencies>
 
     <build>
-        <pluginManagement>
-            <plugins>
-                <plugin>
-                    <groupId>org.sonarsource.scanner.maven</groupId>
-                    <artifactId>sonar-maven-plugin</artifactId>
-                    <version>3.4.0.905</version>
-                </plugin>
-            </plugins>
-        </pluginManagement>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>

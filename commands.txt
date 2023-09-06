@@ -1,10 +1,10 @@
 
-Analyze "ProyectoBadSmell": sqp_660fa19dcf2814e73b5c8661babc0212bb1a8d9f
+Analyze "ProyectoBadSmell": sqp_b2ab23f35663c694663aee3fe1de36c3232001ac
 
 mvn clean verify sonar:sonar \
   -Dsonar.projectKey=ProyectoBadSmell \
   -Dsonar.host.url=http://localhost:9000 \
-  -Dsonar.login=sqp_660fa19dcf2814e73b5c8661babc0212bb1a8d9f
+  -Dsonar.login=sqp_b2ab23f35663c694663aee3fe1de36c3232001ac
 
 
 snyk test
@@ -15,3 +15,4 @@ snyk test --maven-aggregate-project
 
 
 
+token = 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

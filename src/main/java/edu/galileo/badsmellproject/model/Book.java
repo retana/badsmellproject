@@ -1,4 +1,4 @@
-package edu.galileo.badsmellproject;
+package edu.galileo.badsmellproject.model;
 
 import lombok.Data;
 
